@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 248, 253);
+}
+
+.quick{
+    display: flex;
+}
+
+.src{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(241, 248, 253);
+    border-radius: 50%;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div.logo{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.points{
+    margin-left: 10px;
+}
+

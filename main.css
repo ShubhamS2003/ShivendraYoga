@@ -1,0 +1,61 @@
+div.points-pic{
+    display: flex;
+}
+
+/* div.list-style{
+    display: flex;
+    align-items: center;
+} */
+
+div.sliderspace{
+    width: 100%;
+    height: 500px;
+}
+
+.r1{
+    width: 100%;
+    height: 100%;
+}
+
+.explaination{
+    display: flex;
+    align-items: center;
+}
+
+.list-style{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.questions{
+    margin-top: 55px;
+    margin-left: 15px;
+}
+ .point-para{
+     margin: 15px;
+     margin-left: 40px;
+ }
+
+ p.ans{
+    margin-top: 25px;
+}
+
+.ans-img{
+    height: 300px;
+    width: 300px;
+    border: 5px steelblue;
+    border-style: inset;
+}
+
+.yoga{
+    width: 100%;
+    height: 100%;
+}
+
+#bullets{
+    background-color: rgb(215 231 244);
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
