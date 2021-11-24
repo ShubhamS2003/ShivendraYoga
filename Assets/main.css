@@ -1,3 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pri-back: rgb(236, 151, 60);
+    --pri-font: #f77f00;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* Slider Component styles */
+
+.slider{
+    position: relative; 
+    padding: 2rem 0;
+    background: linear-gradient(to right, var(--pri-font), var(--pri-back));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide__container {
+    display: flex;
+    max-width: 70rem;
+    max-height: 34rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.slide__image {
+    width: 100%;
+    transition: all 1s;
+}
+.slider__btn{
+    top: 50%; 
+    position: absolute;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 1.3rem 1.5rem;
+    z-index: 100;
+    cursor: pointer;
+    box-shadow: 0 1rem 4.5rem rgba(0, 0, 0, 0.712);
+    transition: all .5s;
+}
+
+.btn__prev{
+    left: 20%;  
+    transform: translate(-50%, -50%);
+}
+.btn__next{
+    right: 20%;    
+    transform: translate(50%, -50%);
+}
+
+.arrow__prev{
+    transition: all .5s;
+    width: 2.5rem;
+    height: 2.5rem;
+    transform: rotateZ(90deg);
+}
+
+.arrow__next{
+    transition: all .5s;
+    width: 2.5rem;
+    height: 2.5rem;
+    transform: rotateZ(-90deg);
+}
+
+
+
 div.points-pic{
     display: flex;
 }
@@ -6,11 +82,6 @@ div.points-pic{
     display: flex;
     align-items: center;
 } */
-
-div.sliderspace{
-    width: 100%;
-    height: 500px;
-}
 
 .r1{
     width: 100%;
