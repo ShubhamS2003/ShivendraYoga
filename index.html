@@ -15,25 +15,22 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-        <div class="logo">
-            <a href="index.html"><img src="Assets/Images/logo.PNG" alt="Logo" class="src"></a>
-        </div>
-        <div class="quick">
-            <nav class="quick-links">
-                <ul class="quick items">
-                    <li> <a href="index.html">Home</a></li>
-                    <li> <a href="about.html">About us</a></li>
-                    <li> <a href="courses.html">Courses</a> </li>
-                    <li><a href="contact.html">Contact us</a> </li>
-                </ul>
-            </nav>
-        </div>
-        </div>
+    <!-- Nav Component Starts -->
+    <header class = "nav">
+            <a class = "nav__logo" href="index.html">
+                <img class = "logo"src="Assets/Images/logo.PNG" alt="Logo">
+            </a>
+            <div class="nav__link--container">
+                <a class = "nav__link" href="index.html">Home</a>
+                <a class = "nav__link" href="about.html">About</a>
+                <a class = "nav__link" href="courses.html">Courses</a> 
+                <a class = "nav__link" href="contact.html">Contact</a> 
+            <div/>
     </header>
-    <main>
-        <!-- Slider Component starts -->
+    <!-- Nav Componene Ends -->
+
+    <!-- Slider Component starts -->
+    <section class="slider__section">
         <div class="slider">
             <div class="slide__container">
                 <img id = "last-clone" class = "slide__image slide__image3" src = "Assets/Images/Slider3.png" alt="slider-image">
@@ -49,8 +46,8 @@
                 <img class="arrow__next" src="Assets/Images/arrow.svg" alt="next">
             </button>
         </div>
-
-        <!-- Slider Component ends -->
+    </section>
+    <!-- Slider Component ends -->
         <div class="questions">
             <h2 class="ques">Why choose Shivendu Yoga Studio?</h2>
 
@@ -61,7 +58,6 @@
         </div>
             <div class="points-pic">
                 <div class="answers">
-
                     <div class="list-style">
                         <div class="explaination">
                         <i class="fas fa-bullseye" id="bullets"></i>
@@ -95,19 +91,15 @@
                     <img src="Assets/Images/pic-ans.PNG" alt="" class="yoga">
                 </div>
             </div>
-            <div class="platform">
-                <h2 class="available">Available on every platoform</h2>
-                <ul class="platforms">
-                    <li>Offline- At the Yoga Studio</li>
-                    <li>Online- At the comfort of your home</li>
-                    <li>At your home with a personal trainer</li>
-                </ul>
-            </div>
-            
-
-    </main>
     <footer>
-
+        <div class="platform">
+            <h2 class="available">Available on every platoform</h2>
+            <ul class="platforms">
+                <li>Offline- At the Yoga Studio</li>
+                <li>Online- At the comfort of your home</li>
+                <li>At your home with a personal trainer</li>
+            </ul>
+        </div>
     </footer>
 </body>
 

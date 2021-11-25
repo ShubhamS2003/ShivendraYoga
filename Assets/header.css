@@ -1,39 +1,40 @@
 
-
-.container{
+.nav {
+    background-color: var(--sec-back);
+    box-shadow: var(--nav-shadow);
+    font-family: Anton, 'sans-serif';
+    font-size: 2rem;
+    color: var(--pri-font);
     display: flex;
-    align-items: center;
-    background-color: rgb(241, 248, 253);
+    align-items: center;  
+    padding: 2rem;
 }
 
-.quick{
+/* Main Shivendu Yoga Center website */
+.logo {
     display: flex;
-}
-
-.src{
-    height: 100px;
-    width: 100px;
-    border: 1px solid rgb(241, 248, 253);
+    justify-self:self-start;
+    width: 7rem;
     border-radius: 50%;
 }
 
-nav ul li{
-    list-style: none;
-    padding: 10px;
-    padding-left: 20px;
-}
+.nav__link--container {
 
-nav ul li a{
+    margin: 0 auto;
+}
+.nav__link {
+    padding: 0 2rem;
     text-decoration: none;
-    color: black;
 }
 
-div.logo{
-    margin-top: 5px;
-    margin-left: 5px;
+.nav__link:active, .nav__link:visited, .nav__link:link {
+    color: var(--pri-font);
+    letter-spacing: 1.1px;
+    transition: all .4s ease-in-out;    
+    text-transform: uppercase;
 }
 
-.points{
-    margin-left: 10px;
+.nav__link:hover {
+    color: var(--sec-font);
 }
 

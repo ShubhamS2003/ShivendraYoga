@@ -5,20 +5,33 @@
 }
 
 :root{
-    --pri-back: rgb(236, 151, 60);
-    --pri-font: #f77f00;
+    --pri-back: #dbe1e8;
+    --sec-back: #fff;
+    --pri-font: #454e56;
+    --sec-font: #12181b;
+    --nav-shadow: .4rem 0 1rem -.3rem #c1c1c1;
 }
 html{
     font-size: 62.5%;
 }
 
+body {
+    background-color: var(--pri-back);
+}
 /* Slider Component styles */
 
+.slider__section {
+    padding-top: 2rem;
+}
 .slider{
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 1rem solid var(--sec-back);
     position: relative; 
     width: 50%;
     margin: auto;  
-    overflow: hidden;   
+    overflow: hidden; 
+    box-shadow: var(--nav-shadow);  
 }
 
 .slide__container {
@@ -66,6 +79,13 @@ html{
     width: 2.5rem;
     height: 2.5rem;
     transform: rotateZ(-90deg);
+}
+
+.arrow__next:hover {
+    transform: rotateZ(-90deg) translateY(.3rem);
+}
+.arrow__prev:hover {
+    transform: rotateZ(90deg) translateY(.3rem);
 }
 
 
