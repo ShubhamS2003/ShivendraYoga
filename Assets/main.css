@@ -16,25 +16,21 @@ html{
 
 .slider{
     position: relative; 
-    padding: 2rem 0;
-    background: linear-gradient(to right, var(--pri-font), var(--pri-back));
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    margin: auto;  
+    overflow: hidden;   
 }
 
 .slide__container {
     display: flex;
-    max-width: 70rem;
-    max-height: 34rem;
-    overflow: hidden;
+    width: 100%;
+    max-height: 40rem;
     position: relative;
     border-radius: 1rem;
 }
 
 .slide__image {
     width: 100%;
-    transition: all 1s;
 }
 .slider__btn{
     top: 50%; 
@@ -50,11 +46,11 @@ html{
 }
 
 .btn__prev{
-    left: 20%;  
+    left: 5%;  
     transform: translate(-50%, -50%);
 }
 .btn__next{
-    right: 20%;    
+    right: 5%;    
     transform: translate(50%, -50%);
 }
 
