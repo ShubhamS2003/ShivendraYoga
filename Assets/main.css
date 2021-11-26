@@ -117,6 +117,7 @@ div.points-pic{
 .questions{
     margin-top: 55px;
     margin-left: 15px;
+    max-width: 100%;
 }
  .point-para{
      margin: 15px;
@@ -144,5 +145,24 @@ div.points-pic{
     border: 3px solid black;
     padding: 5px;
     border-radius: 50%;
+}
+
+.points{
+    margin-left: 1em;
+}
+
+h2.available{
+    text-align: center;
+}
+
+.platform-list{
+    padding: 2rem;
+}
+
+ul.platforms{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem;
 }
 

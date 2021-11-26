@@ -35,6 +35,8 @@
 }
 
 .nav__link:hover {
-    color: var(--sec-font);
+    background-color: var(--sec-font);
+    color: white;
+    border-radius: 0.75rem;
 }
 
