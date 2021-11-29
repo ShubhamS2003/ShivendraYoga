@@ -5,11 +5,15 @@
 }
 
 :root{
+    --orange-color: #fa8142;
+    --green-color: #09c372;
+    --purple-color: #9166cc;
     --pri-back: #dbe1e8;
     --sec-back: #fff;
     --pri-font: #454e56;
     --sec-font: #12181b;
     --nav-shadow: .4rem 0 1rem -.3rem #c1c1c1;
+    --card-shadow: 0 4px 8px rgba(0,30,84,0.12);
 }
  html{
     font-size: 62.5%; 
