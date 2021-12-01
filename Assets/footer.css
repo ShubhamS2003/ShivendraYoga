@@ -3,7 +3,8 @@
     font-size: 1.5rem;
     padding: 5rem 3rem;
     display: flex;  
-    background-color: var(--green-color);
+    /* background-color: var(--sec-font); */
+    background-color: var(--pri-back);
 }
 
 .footer__card{
@@ -46,7 +47,7 @@
     padding: 1rem 1.5rem;
     border-radius: .5rem;
     background-color: transparent;
-    border: .2rem solid var(--purple-color);
+    border: .2rem solid var(--sec-font);
     transition: all 0.4s ease;
 }
 
@@ -54,7 +55,7 @@
     color: var(--sec-back);
     transform: translateY(-.2rem);
     box-shadow: var(--card-shadow);
-    background-color: var(--purple-color);
+    background-color: var(--sec-font);
 }
 
 .footer__links {
@@ -101,7 +102,7 @@
     margin-left: 2rem;
     cursor: pointer;
     padding: 1rem 1.5rem;
-    border: 2px solid var(--purple-color);
+    border: 2px solid var(--sec-font);
     border-radius: .5rem;   
     background-color: transparent;
     transition: all .4s ease;
@@ -109,7 +110,7 @@
 
 .form__subscribe:hover {
     transform: scale(1.1);
-    background-color: var(--purple-color);
+    background-color: var(--sec-font);
     color: var(--sec-back);
     box-shadow: var(--card-shadow);
 }
@@ -119,7 +120,7 @@
     border-radius: .5rem;
     padding: 1rem 2rem;
     font-family: 'Lato', sans-serif;
-    border: 2px solid var(--green-color);
+    border: 2px solid var(--sec-font);
     transition: all .4s ease-in-out;
 }   
 
@@ -137,5 +138,16 @@
 }
 .form__input:focus {
     outline: none;
+}
+
+.rights{
+ height: 4rem;
+ background-color: var(--sec-font);
+ font-size: 1.5rem;
+ color: white;
+ display: flex;
+ align-items: center;
+ padding-left: 1.3rem;
+ font-family: 'Nunito', sans-serif;
 }
 
