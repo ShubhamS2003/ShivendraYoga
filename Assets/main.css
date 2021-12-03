@@ -301,6 +301,7 @@ h2.available{
     justify-content: center;
     margin-bottom: 3rem;
     flex-direction: row-reverse;
+    margin-left: -10rem;
 }
 
 .count h2{
@@ -333,5 +334,80 @@ h2.available{
     margin-left: 1.4rem;
     font-family: 'Kanit', sans-serif;
     list-style: georgian; 
+}
+
+.Aasan3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-left: -28rem;
+}
+
+.count h2{
+    margin-left: 2rem;
+    font-size: 5rem;
+    border-bottom: solid 0.25rem black;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.Aasan3 img{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    height: 35rem;
+    width: auto;
+}
+
+.Aasan3 .Aasan-para3 h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Aasan3 .Aasan-para3 p{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.Aasan-para3 ul li{
+    font-size: 1.3rem;
+    margin-left: 1.4rem;
+    font-family: 'Kanit', sans-serif;
+    list-style: georgian; 
+}
+
+.aspire{
+    display: flex;
+    margin: 5rem 30rem;
+    background-color: rgb(149, 199, 240);
+    height: 38rem;
+    width: auto;
+}
+
+.aspire .aspire-para{
+    font-size: 1.5rem;
+    padding: 3rem 7rem 3rem 7rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.aspire .aspire-img img{
+    height: 38rem;
+    width: auto;
+}
+
+.training-programs{
+    margin-left: 20rem;
+    margin-bottom: 15rem;
+    font-family: 'Kanit', sans-serif;
+   }
+
+.training-programs h2{
+    font-size: 4rem;
+    color: rgb(68, 65, 65);
+}
+
+.training-programs p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: rgb(68, 65, 65);
 }
 
