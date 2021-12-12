@@ -132,11 +132,9 @@ div.points-pic{
 }
 
 .ans-img{
-    height: 33rem;
-    width: 37rem;
-    border: 0.35rem rgb(150, 192, 226);
-    border-style: inset;
-    margin-top: 2rem;
+    height: 35rem;
+    width: auto;
+    margin-top: 4rem;
     cursor: pointer;
 }
 
@@ -186,7 +184,6 @@ h2.available{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .Starting-price{
@@ -200,8 +197,8 @@ h2.available{
     margin-top: 2rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 0 1rem 4.5rem rgba(0, 0, 0, 0.712);
     font-family: 'Nunito', sans-serif;
+    box-shadow: 0 1rem 4.5rem rgba(0, 0, 0, 0.712);
 }
 
 .explore a{
@@ -379,7 +376,7 @@ h2.available{
     display: flex;
     margin: 5rem 30rem;
     background-color: rgb(149, 199, 240);
-    height: 38rem;
+    height: 34rem;
     width: auto;
 }
 
@@ -390,24 +387,92 @@ h2.available{
 }
 
 .aspire .aspire-img img{
-    height: 38rem;
+    height: 34rem;
     width: auto;
 }
 
 .training-programs{
     margin-left: 20rem;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
     font-family: 'Kanit', sans-serif;
    }
 
-.training-programs h2{
+.training-programs .yoga-program{
     font-size: 4rem;
     color: rgb(68, 65, 65);
+    border-bottom: solid 0.25rem rgb(68, 65, 65) ;
 }
 
-.training-programs p{
+.training-programs .program-detail{
     margin-top: 2rem;
     font-size: 2rem;
     color: rgb(68, 65, 65);
 }
+
+.instructor{
+    font-size: 3rem;
+    color: rgb(68, 65, 65);
+    margin-left: 20rem;
+    font-family: 'Kanit', sans-serif;
+    border-bottom: solid 0.25rem rgb(68, 65, 65) ;
+}
+
+.sorabh{
+    box-shadow: 0 1rem 4.5rem rgba(0, 0, 0, 0.712);
+    margin: 0 1rem;
+}
+
+.instructor1{
+    display: flex;
+    font-size: 2rem;
+    color: rgb(68, 65, 65);
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.sorabh-details{
+    display: flex;
+    margin: 1rem 5rem 5rem 5rem;
+    padding-bottom: 1rem;
+}
+
+.number{
+    border-bottom: solid 0.25rem rgb(68, 65, 65);
+}
+
+.sorabh1{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.sorabh1:hover{
+    transform: translateY(-0.5rem);
+    transition-duration: 0.3s;
+    /* transition-delay: 0.1s; */
+    transition-timing-function: ease-in-out;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.25rem;
+    text-decoration-color: rgb(68, 65, 65);
+}
+
+.sorabh-info{
+    margin: 0rem 3rem;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.sorabh-points{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+.sorabh-img{
+    height: 55rem;
+    width: auto;
+}
+
 
