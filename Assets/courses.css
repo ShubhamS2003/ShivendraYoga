@@ -1,0 +1,110 @@
+.course {
+    min-height: 100vh;
+    background-color: var(--pri-back);
+    padding: 5rem 4rem 3rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.course__heading{
+        text-transform: uppercase;
+        border-radius: .5rem;
+        padding: 1rem 1.5rem;
+        border: .2rem solid var(--green-color);
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 3rem;
+        transition: all .2s ease-in;
+        margin-bottom: 2rem;
+}
+
+.course__heading:hover {
+    transform: translateY(-.2rem);
+    color: var(--sec-back);
+    cursor: pointer;
+    background-color: var(--green-color);
+}
+
+.course__card--container {
+    display: grid;
+    grid-template-columns: 40rem 40rem 40rem;
+    grid-template-rows: 50rem 50rem 50rem 50rem;  
+}
+.course__card{
+    text-align: center;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--card-shadow);
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--sec-back);
+    transition: all 0.4s ease-in;
+}
+
+.course__card:hover{
+    transform: translateY(-.3rem);
+}
+
+.course__image--container {
+    overflow: hidden;
+}
+.course__image {
+    transition: all 0.4s ease-in;
+    transform-origin: center;
+    width: 100%;
+}
+.course__image:hover {
+    transform: scale(1.2);
+
+}
+.course__title {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+.course__buy {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.course__price {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    align-self: center;
+    margin-left: 1rem;
+}
+.course__price--ini {
+    text-decoration: line-through;
+}
+.course__price--post {
+    text-decoration: underline;
+}
+.course__buy--button {
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    border: .2rem solid var(--orange-color);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: all .2s ease-in;
+}
+
+.course__buy--button:hover {
+    cursor: pointer;
+    background-color: var(--orange-color);
+}
+
+.button__link {
+    text-decoration: none;
+}
+
+.button__link:hover {
+    color: var(--sec-back) !important; 
+}
+.button__link:link, .button__link:visited, .button__link:active {
+    color: var(--sec-font);
+}
