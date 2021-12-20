@@ -187,7 +187,7 @@ h2.available{
 }
 
 .Starting-price{
-    font-size: 5rem;
+    font-size: 4.7rem;
     margin-top: 10rem;
     font-family: 'Nunito', sans-serif;
 }
@@ -448,10 +448,10 @@ h2.available{
 }
 
 .sorabh1:hover{
-    transform: translateY(-0.5rem);
-    transition-duration: 0.3s;
+    transform: translate(0, -0.8rem);
+    transition-duration: 0.5s;
     /* transition-delay: 0.1s; */
-    transition-timing-function: ease-in-out;
+    /* transition-timing-function: ease-in-out; */
     text-decoration: underline;
     text-decoration-style: solid;
     text-decoration-thickness: 0.25rem;
@@ -474,5 +474,103 @@ h2.available{
     height: 55rem;
     width: auto;
 }
+
+.naresh{
+    box-shadow: 0 1rem 4.5rem rgba(0, 0, 0, 0.712);
+    margin: 0 1rem;
+}
+
+.instructor2{
+    display: flex;
+    font-size: 2rem;
+    color: rgb(68, 65, 65);
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.naresh-details{
+    display: flex;
+    margin: 1rem 5rem 5rem 5rem;
+    padding-bottom: 1rem;
+}
+
+.number{
+    border-bottom: solid 0.25rem rgb(68, 65, 65);
+}
+
+.naresh1{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.naresh1:hover{
+    transform: translate(0, -0.7rem);
+    transition-duration: 0.5s;
+    /* transition-delay: 0.1s; */
+    /* transition-timing-function: ease-in-out; */
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.25rem;
+    text-decoration-color: rgb(68, 65, 65);
+}
+
+.naresh-info{
+    margin: 0rem 3rem;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.naresh-points{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+.naresh-img{
+    height: 55rem;
+    width: auto;
+}
+
+.shivendra{
+    background-color: #e6c9c4;
+    display: flex;
+}
+
+.shivendu-pic{
+    height: 30rem;
+    width: auto;
+    border: 0.25rem solid var(--pri-back);
+    border-radius: 90%;
+    margin: 2rem;
+}
+
+b{
+    font-size: 2rem;
+}
+
+.shivendra-1{
+    margin-left: 3rem;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.shivendra-2{
+    margin-left: 3rem;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+
+
+
 
 
